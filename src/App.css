@@ -47,6 +47,7 @@ body {
   align-items: center;
 }
 
+/*landing page*/
 .container {
   text-align: center; 
 }
@@ -80,5 +81,8 @@ display: inline-block;
 font-size: 16px;
 font-weight: 500;
 }
+/*************************************************/
+/*login page*/
+
 
 
