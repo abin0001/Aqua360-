@@ -1,13 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-
-      <h1>
-        Aqua-360
-      </h1>
       
     </div>
   );
