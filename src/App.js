@@ -12,11 +12,12 @@ import Notification from "./components/Notification/Notification";
 import Profile from "./components/Profile/Profile";
 import Settings from "./components/Settings/Settings";
 import Waterusage from "./components/Waterusage/Waterusageanalytics";
-import Signup from "./components/Signup/Signup";
+import SignUp from './components/SignUp/SignUp';
 
 
 function App() {
   return (
+
         <Routes>
           <Route path="/" element={<Landing />} ></Route>
             <Route path='Login' element={<Login />}  ></Route>
@@ -28,7 +29,7 @@ function App() {
             <Route path='Notification' element={<Notification />}  ></Route>
             <Route path="Profile" element={<Profile />} ></Route>
             <Route path='Waterusage' element={<Waterusage />}  ></Route>
-            <Route path="Signup" element={<Signup />} ></Route>
+            <Route path="SignUp" element={<SignUp />} ></Route>
         </Routes>
   );
 }
