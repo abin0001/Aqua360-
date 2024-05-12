@@ -2,7 +2,7 @@ import React from 'react';
 import  logo from  "../../Assets/water logo.png";
 import './../../App.css';
 
-function LandingPage() {
+function Landing() {
     return (
         <div className="container">
             <h1>AQUA 360</h1>
@@ -14,4 +14,4 @@ function LandingPage() {
     );
 }
 
-export default LandingPage;
+export default Landing;
